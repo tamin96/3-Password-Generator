@@ -112,9 +112,9 @@ function generatePassword() {
   }
 
   for (var i = 0; i < options.passwordLength; i++) {
-    var possibleCharacters = getRandom(possibleCharacters);
+    var possibleCharacter = getRandom(possibleCharacters);
 
-    newPassword.push(possibleCharacters);
+    newPassword.push(possibleCharacter);
 
   }
 
